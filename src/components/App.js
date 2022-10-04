@@ -15,7 +15,7 @@ const App = () => {
             setToDoList([...toDoList])
         }
         else {
-            setToDoList([...toDoList, inputValue])
+            setToDoList([...toDoList, inputValue]);
 
             setInputValue('');
 
