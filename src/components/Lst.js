@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React  from "react"
 
 
 const Lst = ({ dolist , setdolist }) => {
@@ -7,7 +7,7 @@ const Lst = ({ dolist , setdolist }) => {
 
     const onbtnclick = (e) => {
       
-        setdolist(dolist.filter((value,index) => {return index != e.target.id;}))
+        setdolist(dolist.filter((value,index) => {return index !== e.target.id;}))
     
     }
 
