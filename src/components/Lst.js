@@ -7,11 +7,10 @@ const Lst = ({ dolist , setdolist }) => {
 
     const onbtnclick = (e) => {
       
-        setdolist(dolist.filter((value,index) => {return index !== e.target.id;}))
+        setdolist(dolist.filter((value,index) => {return index !== parseInt(e.target.id);}))
     
     }
 
-   
 
     const renderedList = dolist.map((item, index) => {
         return (
