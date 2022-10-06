@@ -51,7 +51,7 @@ div#root {
 }
 
 
-@media (min-width:505px) {
+@media (max-width:505px) {
     div#root {
         width: 100%;
     }
